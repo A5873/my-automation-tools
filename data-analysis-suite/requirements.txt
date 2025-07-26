@@ -1,0 +1,153 @@
+# Core Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+polars>=0.20.0
+dask[complete]>=2023.5.0
+vaex>=4.16.0
+
+# Visualization & Plotting
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+bokeh>=3.1.0
+altair>=5.0.0
+holoviews>=1.17.0
+datashader>=0.15.0
+panel>=1.2.0
+streamlit>=1.25.0
+dash>=2.12.0
+
+# Machine Learning & AI
+scikit-learn>=1.3.0
+xgboost>=1.7.0
+lightgbm>=4.0.0
+catboost>=1.2.0
+tensorflow>=2.13.0
+torch>=2.0.0
+transformers>=4.30.0
+huggingface-hub>=0.16.0
+autosklearn>=0.15.0
+pycaret>=3.0.0
+lazypredict>=0.2.12
+
+# Statistical Analysis
+scipy>=1.11.0
+statsmodels>=0.14.0
+pingouin>=0.5.3
+arch>=6.2.0
+pymc>=5.6.0
+bayesian-optimization>=1.4.0
+
+# Time Series
+sktime>=0.21.0
+tslearn>=0.6.0
+prophet>=1.1.4
+neuralforecast>=1.6.0
+statisticalforecast>=1.6.0
+
+# Deep Learning for Time Series
+pytorch-forecasting>=1.0.0
+darts>=0.24.0
+
+# Natural Language Processing
+nltk>=3.8.0
+spacy>=3.6.0
+textblob>=0.17.0
+gensim>=4.3.0
+
+# Computer Vision
+opencv-python>=4.8.0
+Pillow>=10.0.0
+scikit-image>=0.21.0
+
+# Advanced Analytics
+networkx>=3.1.0
+graph-tool>=2.45.0
+igraph>=0.10.0
+umap-learn>=0.5.3
+hdbscan>=0.8.29
+tsne>=0.3.0
+
+# Data Quality & Profiling
+pandas-profiling>=3.6.0
+great-expectations>=0.17.0
+deepcheck>=0.17.0
+evidently>=0.4.0
+whylogs>=1.3.0
+
+# Database Connectors
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+PyMySQL>=1.1.0
+mongoengine>=0.27.0
+cassandra-driver>=3.28.0
+redis>=4.6.0
+elasticsearch>=8.8.0
+
+# File Format Support
+openpyxl>=3.1.0
+xlsxwriter>=3.1.0
+pyarrow>=12.0.0
+fastparquet>=2023.4.0
+h5py>=3.9.0
+tables>=3.8.0
+
+# API & Web
+requests>=2.31.0
+urllib3>=2.0.0
+flask>=2.3.0
+fastapi>=0.100.0
+uvicorn>=0.23.0
+
+# Cloud Services
+boto3>=1.28.0
+google-cloud-storage>=2.10.0
+azure-storage-blob>=12.17.0
+
+# Distributed Computing
+ray[default]>=2.5.0
+modin[all]>=0.22.0
+
+# Reporting & Documentation
+jinja2>=3.1.2
+fpdf2>=2.7.0
+weasyprint>=59.0
+markdown>=3.4.0
+reportlab>=4.0.0
+
+# Utilities
+colorama>=0.4.6
+tqdm>=4.65.0
+click>=8.1.0
+rich>=13.4.0
+typer>=0.9.0
+pyyaml>=6.0.0
+toml>=0.10.0
+configparser>=5.3.0
+
+# Performance & Optimization
+numba>=0.57.0
+cython>=3.0.0
+line-profiler>=4.0.0
+memory-profiler>=0.61.0
+
+# Jupyter & Interactive
+jupyter>=1.0.0
+ipywidgets>=8.0.0
+voila>=0.5.0
+
+# Geospatial
+geopandas>=0.13.0
+folium>=0.14.0
+contextily>=1.3.0
+
+# Financial Analysis
+yfinance>=0.2.0
+quandl>=3.7.0
+fredapi>=0.5.0
+ta>=0.10.0
+
+# Miscellaneous
+tabulate>=0.9.0
+kaleido>=0.2.1
+cumulative-profiler>=0.0.1

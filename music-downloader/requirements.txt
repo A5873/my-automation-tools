@@ -1,0 +1,4 @@
+requests>=2.25.1
+yt-dlp>=2023.1.6
+mutagen>=1.46.0
+beautifulsoup4>=4.9.3
