@@ -19,22 +19,37 @@ An intelligent lyrics fetching tool that can:
 - Save lyrics with album artwork
 - Support for various music services
 
+### 🕷️ Web Scraper Toolkit
+A powerful web scraping suite for automating data collection:
+- Price monitoring from e-commerce sites
+- Job listings aggregation from multiple boards
+- News and social media content scraping
+- Scheduled automated data collection
+- Export to multiple formats (JSON, CSV)
+
 ## 📁 Project Structure
 
 ```
-my-automation-tools/
+alex-automation-tools/
 ├── README.md                 # This file
+├── LICENSE                   # MIT License
 ├── music-downloader/         # Music downloading tools
 │   ├── README.md
 │   ├── enhanced_music_downloader.py
 │   ├── music_discovery_downloader.py
 │   ├── requirements.txt
 │   └── run_downloader.sh
-└── lyrics-fetcher/           # Lyrics fetching tools
+├── lyrics-fetcher/           # Lyrics fetching tools
+│   ├── README.md
+│   ├── lyrics_fetcher.py
+│   ├── interactive_lyrics_fetcher.py
+│   └── requirements.txt
+└── web-scraper-toolkit/      # Web scraping automation
     ├── README.md
-    ├── lyrics_fetcher.py
-    ├── interactive_lyrics_fetcher.py
-    └── requirements.txt
+    ├── web_scraper_toolkit.py
+    ├── examples.py
+    ├── requirements.txt
+    └── setup.sh
 ```
 
 ## 🛠️ Quick Setup
