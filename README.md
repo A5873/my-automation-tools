@@ -68,7 +68,9 @@ This project is open source. See individual tool directories for specific licens
 
 ## 👤 Author
 
-Alex - [GitHub Profile](https://github.com/yourusername)
+**Alex** - [GitHub Profile](https://github.com/alex) 
+
+Feel free to connect and explore more projects!
 
 ---
 
