@@ -46,10 +46,21 @@ Intelligent lyrics fetching and management:
 - Album artwork integration
 - Various music service support
 
+### 📊 Advanced Data Analysis Suite
+Comprehensive AI-powered data analysis and machine learning toolkit:
+- **Multi-format Data Loading**: CSV, Excel, JSON, Parquet with automatic insights
+- **Advanced EDA**: Statistical summaries, correlations, distributions, outlier detection
+- **AI-Powered Insights**: Automatic pattern recognition and actionable recommendations
+- **AutoML Integration**: Automated model selection for classification and regression
+- **Publication-Quality Visualizations**: Interactive plots with Plotly, correlation heatmaps
+- **Comprehensive Reporting**: Rich HTML reports with embedded visualizations
+- **CLI Interface**: User-friendly command-line tool with Typer
+- **Advanced Analytics**: Time series analysis, feature engineering, model interpretability
+
 ## 📁 Project Structure
 
 ```
-alex-automation-tools/
+my-automation-tools/
 ├── README.md                    # This file
 ├── LICENSE                      # MIT License
 ├── document-processor/          # ✅ Document conversion & analysis
@@ -70,6 +81,9 @@ alex-automation-tools/
 │   ├── interactive_image_processor.py
 │   ├── requirements.txt
 │   └── setup.sh
+├── data-analysis-suite/         # ✅ AI-powered data analysis & ML
+│   ├── advanced_data_suite.py
+│   └── requirements.txt
 ├── music-downloader/            # ⚙️ Music downloading tools
 │   ├── README.md
 │   ├── enhanced_music_downloader.py
