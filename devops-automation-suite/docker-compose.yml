@@ -1,0 +1,38 @@
+version: "3.8"
+
+services:
+  web:
+    image: tiangolo/uvicorn-gunicorn-fastapi:python3.8
+    container_name: devops_automation_web
+    volumes:
+      - ./:/app
+    ports:
+      - "8000:8000"
+    command: uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload
+    
+  db:
+    image: postgres:13
+    container_name: devops_automation_db
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: devops_automation
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  redis:
+    image: redis:alpine
+    container_name: devops_automation_redis
+    ports:
+      - "6379:6379"
+
+volumes:
+  pgdata:
+
+networks:
+  default:
+    external:
+      name: devops_automation_network
+

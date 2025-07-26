@@ -57,6 +57,17 @@ Comprehensive AI-powered data analysis and machine learning toolkit:
 - **CLI Interface**: User-friendly command-line tool with Typer
 - **Advanced Analytics**: Time series analysis, feature engineering, model interpretability
 
+### 🚀 DevOps Automation Suite
+Enterprise-grade DevOps automation platform with AI-powered insights:
+- **AI-Powered Log Analysis**: Machine learning-based anomaly detection and pattern recognition
+- **Infrastructure Monitoring**: Real-time system metrics with predictive scaling recommendations
+- **Security Scanner**: Automated vulnerability assessment and compliance monitoring
+- **CI/CD Pipeline Optimizer**: Build performance analysis and resource optimization
+- **Database Performance**: Query optimization and index recommendations
+- **Multi-cloud Support**: AWS, Azure, GCP compatibility with Kubernetes deployment
+- **Web Dashboard**: Interactive FastAPI-based interface with real-time visualizations
+- **Production-Ready**: Docker containerization, comprehensive testing, and monitoring
+
 ## 📁 Project Structure
 
 ```
@@ -84,6 +95,20 @@ my-automation-tools/
 ├── data-analysis-suite/         # ✅ AI-powered data analysis & ML
 │   ├── advanced_data_suite.py
 │   └── requirements.txt
+├── devops-automation-suite/     # ✅ Enterprise DevOps automation
+│   ├── README.md
+│   ├── main.py
+│   ├── requirements.txt
+│   ├── docker-compose.yml
+│   ├── setup.sh
+│   ├── core/
+│   ├── log_analyzer/
+│   ├── infrastructure_monitor/
+│   ├── security_scanner/
+│   ├── pipeline_optimizer/
+│   ├── db_performance/
+│   ├── api/
+│   └── web_dashboard/
 ├── music-downloader/            # ⚙️ Music downloading tools
 │   ├── README.md
 │   ├── enhanced_music_downloader.py
