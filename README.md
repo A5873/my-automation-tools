@@ -22,7 +22,7 @@ An intelligent lyrics fetching tool that can:
 ## 📁 Project Structure
 
 ```
-alex-automation-tools/
+my-automation-tools/
 ├── README.md                 # This file
 ├── music-downloader/         # Music downloading tools
 │   ├── README.md
@@ -41,8 +41,8 @@ alex-automation-tools/
 
 1. Clone this repository:
    ```bash
-   git clone <repository-url>
-   cd alex-automation-tools
+   git clone https://github.com/A5873/my-automation-tools
+   cd my-automation-tools
    ```
 
 2. Choose the tool you want to use and navigate to its directory
@@ -68,7 +68,7 @@ This project is open source. See individual tool directories for specific licens
 
 ## 👤 Author
 
-**Alex** - [GitHub Profile](https://github.com/alex) 
+**Alex** - [GitHub Profile](https://github.com/A5873) 
 
 Feel free to connect and explore more projects!
 
