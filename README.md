@@ -1,4 +1,4 @@
-# Alex's Automation Tools 🚀
+# my Automation Tools 🚀
 
 A comprehensive collection of Python automation tools for various data processing, content management, and productivity tasks.
 
