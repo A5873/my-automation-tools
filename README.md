@@ -160,7 +160,7 @@ my-automation-tools/
    python interactive_image_processor.py
    ```
 
-### For Other Tools ⚙️
+### For Other Tools 
 
 3. Navigate to the desired tool directory and follow the setup instructions in each tool's README
 
